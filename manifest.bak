@@ -6,21 +6,28 @@
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <value name="name">TestR1PubDepProject</value>
-  <null name="startup_services"/>
-  <null name="shutdown_services"/>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="wm.cloudstreams.testr1pubdep.TestR1PubDepProject.plm:registerProvider"/>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <null name="wm.cloudstreams.testr1pubdep.TestR1PubDepProject.plm:unregisterProvider"/>
+  </record>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmCloudStreams">12.1.0</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">1</value>
+  <value name="build">2</value>
   <null name="description"/>
   <value name="created_date">27-05-2026 05:52:04 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-05-27T05:52:06.514642078Z</value>
+  <value name="lastUpdated">2026-05-27T05:52:07.564720803Z</value>
   <value name="wmProjectId">fl7a3f340a743240b58d162bc0b8bbabbd</value>
   <value name="creator">Pooja Anand</value>
+  <null name="publisher"/>
 </Values>
